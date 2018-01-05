@@ -1,4 +1,4 @@
--keep class com.cyanogenmod.pocketmode.* {
+-keep class org.lineageos.pocketmode.* {
   *;
 }
 
