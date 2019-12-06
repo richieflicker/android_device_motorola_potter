@@ -15,9 +15,9 @@
 #
 
 PRODUCT_MAKEFILES := \
-    $(LOCAL_DIR)/arrow_potter.mk
+    $(LOCAL_DIR)/bootleg_potter.mk
 
 COMMON_LUNCH_CHOICES := \
-    arrow_potter-user \
-    arrow_potter-userdebug \
-    arrow_potter-eng
+    bootleg_potter-user \
+    bootleg_potter-userdebug \
+    bootleg_potter-eng
