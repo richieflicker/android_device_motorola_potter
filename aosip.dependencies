@@ -1,0 +1,20 @@
+[
+  {
+    "repository":  "android_kernel_motorola_potter",
+    "target_path": "kernel/motorola/potter"
+  },
+  {
+    "repository": "android_vendor_motorola_potter",
+    "target_path": "vendor/motorola/potter"
+  },
+  {
+    "repository": "packages_resources_MotoActions",
+    "target_path": "packages/resources/MotoActions"
+  },
+    {
+    "remote": "lineage",
+    "repository": "android_system_qcom",
+    "target_path": "system/qcom",
+    "branch": "lineage-17.0"
+  }
+]
