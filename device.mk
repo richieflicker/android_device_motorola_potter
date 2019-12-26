@@ -103,7 +103,9 @@ PRODUCT_COPY_FILES += \
 # Bluetooth
 PRODUCT_PACKAGES += \
     libbt-vendor
-
+# LatinIME
+PRODUCT_PACKAGES += \
+ LatinIME
 # Camera
 PRODUCT_PACKAGES += \
     libbson \
