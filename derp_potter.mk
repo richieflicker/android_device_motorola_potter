@@ -32,9 +32,12 @@ TARGET_SCREEN_HEIGHT := 1920
 TARGET_GAPPS_ARCH := arm64
 TARGET_BOOT_ANIMATION_RES := 1080
 
+# Official-ify
+DERP_BUILDTYPE := CI
+
 ## Device identifier. This must come after all inclusions
 PRODUCT_DEVICE := potter
-PRODUCT_NAME := aosip_potter
+PRODUCT_NAME := derp_potter
 PRODUCT_BRAND := motorola
 PRODUCT_MANUFACTURER := motorola
 
