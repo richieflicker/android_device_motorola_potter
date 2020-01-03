@@ -43,6 +43,9 @@ PRODUCT_GMS_CLIENTID_BASE := android-motorola
 PRODUCT_ENFORCE_RRO_TARGETS := \
     framework-res
 
+# PHONE 
+IS_PHONE:= true
+
 PRODUCT_SYSTEM_PROPERTY_BLACKLIST := ro.product.model
 
 PRODUCT_BUILD_PROP_OVERRIDES += \
