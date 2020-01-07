@@ -428,6 +428,9 @@ PRODUCT_PACKAGES += \
     wpa_supplicant \
     wpa_supplicant.conf
 
+# Pocket Mode
+PRODUCT_PACKAGES += \
+    MotoPocketMode
 
 # Wifi Symlinks
 PRODUCT_PACKAGES += \
