@@ -909,6 +909,10 @@ on property:sys.boot_completed=1
     write /proc/sys/kernel/sched_downmigrate 85
     write /proc/sys/kernel/sched_upmigrate_min_nice 19
 
+    # fpc1020 proximity state support
+    chmod 0660 /sys/devices/soc/7af8000.spi/spi_master/spi8/spi8.0/proximity_state
+    chown system system /sys/devices/soc/7af8000.spi/spi_master/spi8/spi8.0/proximity_state
+
     # Adreno Idler
     write /sys/module/adreno_idler/parameters/adreno_idler_idleworkload 6000
     write /sys/module/adreno_idler/parameters/adreno_idler_idlewait 18
