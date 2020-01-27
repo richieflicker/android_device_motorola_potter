@@ -33,7 +33,10 @@ TARGET_GAPPS_ARCH := arm64
 TARGET_BOOT_ANIMATION_RES := 1080
 
 # Official-ify
-DERP_BUILDTYPE := CI
+DERP_BUILDTYPE := Official
+
+FORCE_JSON :=1
+
 
 ## Device identifier. This must come after all inclusions
 PRODUCT_DEVICE := potter
