@@ -59,3 +59,6 @@ allow init proc:file { open write };
 allow init sysfs_capsense:file setattr;
 
 allow init system_file:file mounton;
+
+# Touch
+allow init sysfs_touch:file setattr;

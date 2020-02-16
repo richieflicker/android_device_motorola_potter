@@ -58,3 +58,5 @@ type proc_touchpanel, fs_type;
 
 type sysfs_msm_subsys, sysfs_type, fs_type;
 
+# Touch
+type sysfs_touch, fs_type, sysfs_type;
