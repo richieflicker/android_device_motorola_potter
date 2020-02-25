@@ -21,7 +21,7 @@ $(call inherit-product, $(SRC_TARGET_DIR)/product/full_base_telephony.mk)
 $(call inherit-product, $(SRC_TARGET_DIR)/product/product_launched_with_n_mr1.mk)
 
 # Inherit some common Lineage stuff.
-$(call inherit-product, vendor/aosp/config/common_full_phone.mk)
+$(call inherit-product, vendor/aosip/config/common_full_phone.mk)
 
 # Inherit from potter device
 $(call inherit-product, device/motorola/potter/device.mk)
@@ -32,7 +32,7 @@ TARGET_SCREEN_HEIGHT := 1920
 
 ## Device identifier. This must come after all inclusions
 PRODUCT_DEVICE := potter
-PRODUCT_NAME := aosp_potter
+PRODUCT_NAME := derp_potter
 PRODUCT_BRAND := motorola
 PRODUCT_MANUFACTURER := motorola
 
@@ -47,3 +47,7 @@ PRODUCT_SYSTEM_PROPERTY_BLACKLIST := ro.product.model
 
 PRODUCT_BUILD_PROP_OVERRIDES += \
     PRODUCT_NAME="Moto G5 Plus"
+# Official-ify
+DERP_BUILDTYPE := CI	DERP_BUILDTYPE := Official
+
+FORCE_JSON :=1
